@@ -1,0 +1,58 @@
+SSH 
+password : Editha2020!
+
+MY PUBLIC KEY
+
+Backed up /home/ilgm9yzgyg7n/.ssh/id_rsa to /home/ilgm9yzgyg7n/.ssh/id_rsa.1593189827
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/ilgm9yzgyg7n/.ssh/id_rsa.
+Your public key has been saved in /home/ilgm9yzgyg7n/.ssh/id_rsa.pub.
+The key fingerprint is:
+cd:e6:3a:1c:67:64:a2:b7:eb:6f:04:de:2c:73:17:a9 
+The key's randomart image is:
++--[ RSA 2048]----+
+|                 |
+|                 |
+|             .   |
+|        ooo o    |
+|       oSB+. .   |
+|      . *oE .    |
+|       o X..     |
+|        +..      |
+|       .+=.      |
++-----------------+
+
+MY PRIVATE KEY
+
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: DES-EDE3-CBC,CB27AE04A68CCA49
+
+7fA/T9cPH5mTirzhyy8OUvm6fbCwsyVIlGGBpLGMTQZ+5NEWCCNX1nbElU/n3DJ+
+m9D0LZUtAm2j9C4KJ3lLhoCPbwKBzsHyG9LXfZgTLAkpwQgu3jSN59CNuebggcZ5
+7I2ECNS81D5Fp0Q4tZZ+1YY9keeJz3tgtwqXQgnbsIXOy4cwn7J31txHfHa3YGVn
+HrqcozKAlZwqL7gBKU57RH1f8mGbbDRLKif4+lC6CSes63qrr3RZuUoRr1aaSHX2
+d11uFnKFrI8n0JNuiFtN7r4HSHw+VvZCrQpq6TFSkA85Ri30mRcoYyhu+5bblT1E
+7ln5P2Ss+gRgxtPEvA71n5qFpOfwGCMIPx9PK+1Hyd1BkVQISLZsJwpsQzBlod0f
+5/qr4Gi2wvBqzf8pqB3RJT8euvJP8Si0cBHRFD8/cto8eAwZ7WroKM8QjJywYMwI
++Pu9Ny8oUA761dYfSaWuRXgWR+B6zmlqvV0F/RVZ47YLRTQJohGkgLFnn+uEqPwI
+jm+8hdinWQ4xDm7PB5QJBSWCyQDa9W9JiHoGClgLV563ewKfeEUkg7QyLz2kSyUK
+lG7QQfb+sbVvraB4CPhVkNkHv1xAxKvgYcu1jo9PCRvzizL3eQgAtecu7dLrJDji
+A1/HySb8VTyQs9NHg26qjOR5z4V9xAKhV6GhPkWqKf5Vt7IyMPacTIxT7js87Py9
+ihN7XSYwEfqU/45KxnyLtA0LafGfxrtLGUIBEeZOhMq9eoCFgy5L8ri5hnG5XTbF
+qn7RZIOSr8e1pq5zvzqhB0sTLQ6n5GIot/quABa4bm1Iaqt9sC8Fks8JaUPncI3R
+QiLgqh7Ct7H7Qu63rvT9+byFXhN8bSvyUJxDX0HlFmo9WGZvGXDO5kc969GxPHa8
+DAwkXfVHV5hnhUIqFEgnppjJvK1lWvnxlfu3fbUQDeuyB6bGYojhtreIucGkk+Uk
+nNiSf7hYCN3FhrC6HUfEdcebs4g6VT03LGt9CtpkKsH0X2UL2Th7494+5hKZZENq
+V284avb4SdSMgoJPCjRLTknf6MonHo+e5PuR069DAYWLCBtLCUNduGlzNEgy9Z6Q
+ULyOXKgMODTSMkHUYMviPi2DY9ZHSOEQUO6crGJFrKV/r33OOpiN8+q4Gr/QsUxf
+QWx3i5HGER3yUgeX7Tmx5OON8cfMbdNs1lGkxX4+Yznd/ai71a4GvphkL/wR5URn
+tt0uUQW9QgcRjNIbY91b0fQMNLUdxvG3wpaqDBqoElajQzTUChvwoMS66jj+AL3e
+okEO0WUsXDFjT8p/O3EZudJQqQUI5BNgQ7NwQaSD3sucb9ZtCStI1v8ldWVGjT7E
+yhnqhGD5mpobG90MTNneEXBdc0qCs43SrxNBKWgGxlszt1oWlXBPl7JHpcs00c0Y
++774FGGk0/DIyDR3JRNI4eVFzMsw2pqpePUJBrqHLMP5qzE16K3S9y6mNz4xQKby
+KNT9hJD1EXZ0nXYIcVPM9tJQ8fFPy/530Um7uFxQbhp7l0WEpTLLLW/VoWtPBxpr
++hCeqFIKaFcuTruVgMHIGQG+1j4NhnK10mkkUCd28inAmTQALslgRw==
+-----END RSA PRIVATE KEY-----

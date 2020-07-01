@@ -1,0 +1,34 @@
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/lib/core/lhchat/lhchat.php on line 1270
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 2
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 2
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 2
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 19
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 19
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 19
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 19
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 19
+[27-Jun-2020 15:03:36 UTC] PHP Notice:  Trying to get property of non-object in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/5aee5d00c823ac72129a47054b712994.php on line 20
+[27-Jun-2020 15:09:44 UTC] PHP Warning:  Creating default object from empty value in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$last_msg_id in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$lsync in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$is_user_typing in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$user_id in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$chat_duration_front in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$last_user_msg_time in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$time in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$has_unread_op_messages in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$user_status_front in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$operation_admin in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Warning:  Creating default object from empty value in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$last_msg_id in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$lsync in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$is_user_typing in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$user_id in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$chat_duration_front in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$last_user_msg_time in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$time in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$has_unread_op_messages in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$user_status_front in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2
+[27-Jun-2020 15:09:44 UTC] PHP Notice:  Undefined property: stdClass::$operation_admin in /home/ilgm9yzgyg7n/public_html/support/cache/compiledtemplates/99673d3edd4b58f53db9ec8e802688bc.php on line 2

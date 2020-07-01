@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Live helper chat installation &laquo;  - Live helper chat</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link rel="icon" type="image/png" href="/support/design/defaulttheme/images/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/support/design/defaulttheme/images/favicon.ico">
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="robots" content="noindex, nofollow">
+<meta name="copyright" content="Remigijus Kiminas, livehelperchat.com">
+<link rel="stylesheet" type="text/css" href="/support/cache/compiledtemplates/4b8a0f0ac0925ce35d6d1239f86880f8.css" />
+
+<script type="text/javascript">
+var WWW_DIR_JAVASCRIPT = '/support/index.php/site_admin/';
+var WWW_DIR_JAVASCRIPT_FILES = '/support/design/defaulttheme/sound';
+var confLH = {};
+confLH.back_office_sinterval = 11000;
+confLH.chat_message_sinterval = 3600;
+confLH.new_chat_sound_enabled = 1;
+confLH.new_message_sound_admin_enabled =1;
+confLH.new_message_sound_user_enabled = 1;
+</script>
+<script type="text/javascript" src="/support/cache/compiledtemplates/3d0b85c6b3bff3348231ba459de74d9f.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 pt-1">
+            <img src="/support/design/defaulttheme/images/general/logo.png" alt="Live Helper Chat" title="Live Helper Chat" />
+
+<h1>Installation</h1>
+
+<form action="/support/index.php/site_admin/install/install/1" method="POST">
+
+<div class="panel">
+  <p>You will need to grant write permissions on any of the red-marked folders. You can do this by changing its username to your web server's username or by changing permissions with a CHMOD 777 on the displayed files/folders.</p>
+</div>
+
+<h2>Checking folders permission</h2>
+
+<table class="table table-sm">
+    <tr>
+        <td>I can write to &quot;cache/cacheconfig&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;cache/translations&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;cache/userinfo&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;cache/compiledtemplates&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;settings/&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/storage&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/userphoto&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/storageform&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/storageadmintheme&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/botphoto&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/bottrphoto&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/storageinvitation&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/storagedocshare&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/storagetheme&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>I can write to &quot;var/tmpfiles&quot; directory</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>Is the php_curl extension installed</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>Is the mbstring extension installed</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>Is the php-pdo extension installed</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>Is the gd extension installed</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>Is the json extension detected</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+    <tr>
+        <td>Is the bcmath extension detected</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>        
+    <tr>
+        <td>Minimum 5.4 PHP</td>
+        <td><span class="badge badge-success">Yes</span></td>
+    </tr>
+</table>
+<br>
+
+<input type="submit" class="btn btn-secondary" value="Next" name="Install">
+<br /><br />
+
+</form>        </div>
+    </div>
+</div>
+
+</body>
+</html>
+------------
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Live helper chat installation &laquo;  - Live helper chat</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link rel="icon" type="image/png" href="/support/design/defaulttheme/images/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/support/design/defaulttheme/images/favicon.ico">
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="robots" content="noindex, nofollow">
+<meta name="copyright" content="Remigijus Kiminas, livehelperchat.com">
+<link rel="stylesheet" type="text/css" href="/support/cache/compiledtemplates/4b8a0f0ac0925ce35d6d1239f86880f8.css" />
+
+<script type="text/javascript">
+var WWW_DIR_JAVASCRIPT = '/support/index.php/site_admin/';
+var WWW_DIR_JAVASCRIPT_FILES = '/support/design/defaulttheme/sound';
+var confLH = {};
+confLH.back_office_sinterval = 11000;
+confLH.chat_message_sinterval = 3600;
+confLH.new_chat_sound_enabled = 1;
+confLH.new_message_sound_admin_enabled =1;
+confLH.new_message_sound_user_enabled = 1;
+</script>
+<script type="text/javascript" src="/support/cache/compiledtemplates/3d0b85c6b3bff3348231ba459de74d9f.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 pt-1">
+            <img src="/support/design/defaulttheme/images/general/logo.png" alt="Live Helper Chat" title="Live Helper Chat" />
+
+<h1>Installation step 2</h1>
+
+<form action="/support/index.php/site_admin/install/install/2" method="POST" autocomplete="off">
+
+
+<h2>Database settings</h2>
+
+<table class="table table-sm">
+    <tr>
+        <td>Username</td>
+        <td><input class="form-control" type="text" name="DatabaseUsername" value="" /></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input class="form-control" type="password" name="DatabasePassword" value="" /></td>
+    </tr>
+    <tr>
+        <td>Host</td>
+        <td><input class="form-control" type="text" name="DatabaseHost" value="127.0.0.1"></td>
+    </tr>
+    <tr>
+        <td>Port</td>
+        <td><input class="form-control" type="text" name="DatabasePort" value="3306"></td>
+    </tr>
+    <tr>
+        <td>Database name</td>
+        <td><input class="form-control" type="text" name="DatabaseDatabaseName" value=""></td>
+    </tr>
+</table>
+<br>
+
+<input type="submit" value="Next" class="btn btn-secondary" name="Install">
+<br /><br />
+
+</form>        </div>
+    </div>
+</div>
+
+</body>
+</html>
+------------
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Live helper chat installation &laquo;  - Live helper chat</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link rel="icon" type="image/png" href="/support/design/defaulttheme/images/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/support/design/defaulttheme/images/favicon.ico">
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="robots" content="noindex, nofollow">
+<meta name="copyright" content="Remigijus Kiminas, livehelperchat.com">
+<link rel="stylesheet" type="text/css" href="/support/cache/compiledtemplates/4b8a0f0ac0925ce35d6d1239f86880f8.css" />
+
+<script type="text/javascript">
+var WWW_DIR_JAVASCRIPT = '/support/index.php/site_admin/';
+var WWW_DIR_JAVASCRIPT_FILES = '/support/design/defaulttheme/sound';
+var confLH = {};
+confLH.back_office_sinterval = 11000;
+confLH.chat_message_sinterval = 3600;
+confLH.new_chat_sound_enabled = 1;
+confLH.new_message_sound_admin_enabled =1;
+confLH.new_message_sound_user_enabled = 1;
+</script>
+<script type="text/javascript" src="/support/cache/compiledtemplates/3d0b85c6b3bff3348231ba459de74d9f.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 pt-1">
+            <img src="/support/design/defaulttheme/images/general/logo.png" alt="Live Helper Chat" title="Live Helper Chat" />
+
+<form action="/support/index.php/site_admin/install/install/3" method="post" autocomplete="off" >
+<h1>Installation step 3</h1>
+
+
+<h2>Initial application settings</h2>
+<table class="table table-sm">
+    <tr>
+        <td>Admin username*</td>
+        <td><input class="form-control" type="text" name="AdminUsername" value="" /></td>
+    </tr>
+    <tr>
+        <td>Admin password*</td>
+        <td><input class="form-control" type="password" name="AdminPassword" value="" /></td>
+    </tr>
+    <tr>
+        <td>Admin password repeat*</td>
+        <td><input class="form-control" type="password" name="AdminPassword1" value="" /></td>
+    </tr>
+    <tr>
+        <td>E-mail*</td>
+        <td><input class="form-control" type="text" name="AdminEmail" value=""></td>
+    </tr>
+    <tr>
+        <td>Your name</td>
+        <td><input class="form-control" type="text" name="AdminName" value=""></td>
+    </tr>
+    <tr>
+        <td>Your surname</td>
+        <td><input class="form-control" type="text" name="AdminSurname" value=""></td>
+    </tr>
+    <tr>
+        <td>Default department*</td>
+        <td><input class="form-control" type="text" name="DefaultDepartament" value=""></td>
+    </tr>
+</table>
+<br>
+<input type="submit" class="btn btn-secondary" value="Finish installation" name="Install">
+<br /><br />
+
+</form>        </div>
+    </div>
+</div>
+
+</body>
+</html>
+------------
+<!DOCTYPE html><html><head><title>Live helper chat installation &laquo;  - Live helper chat</title><meta http-equiv="content-type" content="text/html; charset=utf-8" /><link rel="icon" type="image/png" href="/support/design/defaulttheme/images/favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="/support/design/defaulttheme/images/favicon.ico"><meta name="Keywords" content="" /><meta name="Description" content="" /><meta name="robots" content="noindex, nofollow"><meta name="copyright" content="Remigijus Kiminas, livehelperchat.com"><link rel="stylesheet" type="text/css" href="/support/cache/compiledtemplates/4b8a0f0ac0925ce35d6d1239f86880f8.css" /><script type="text/javascript">var WWW_DIR_JAVASCRIPT = '/support/index.php/site_admin/';var WWW_DIR_JAVASCRIPT_FILES = '/support/design/defaulttheme/sound';var confLH = {};confLH.back_office_sinterval = 11000;confLH.chat_message_sinterval = 3600;confLH.new_chat_sound_enabled = 1;confLH.new_message_sound_admin_enabled =1;confLH.new_message_sound_user_enabled = 1;</script><script type="text/javascript" src="/support/cache/compiledtemplates/3d0b85c6b3bff3348231ba459de74d9f.js"></script></head><body><div class="container-fluid"><div class="row"><div class="col-12 pt-1"><img src="/support/design/defaulttheme/images/general/logo.png" alt="Live Helper Chat" title="Live Helper Chat" />
+
+<h1>Installation was completed</h1>
+
+<div class="panel">
+<p>Installation is complete. You can start by adding users and departments.
+
+<a href="/support/index.php/site_admin/user/login">Login here</a>
+</p>
+<br>
+</div>
+</div></div></div></body></html>

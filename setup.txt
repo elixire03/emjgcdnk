@@ -1,0 +1,88 @@
+Setup
+=====
+
+    Connect to the server using SSH
+    ===============================
+
+        * ssh william@kllis.com - the password is "password123" without the quotes
+
+    Install Webserver & Database Server
+    ===================================
+
+        * sudo yum install epel-release nginx mariadb mariadb-server
+    
+    Start services
+    ==============
+
+        * systemctl start nginx
+        * systemctl start mariadb
+        * systemctl enable nginx
+        * systemctl enable mariadb
+
+    Setup Database
+    ==============
+
+        * mysql -uroot
+        * create database kll;
+        * quit
+
+    Install PHP & Dependencies
+    ==========================
+
+        * sudo yum install php php-myql php-cli php-xml php-dom php-gd php-mbstring java-1.8.0-openjdk php-fpm
+
+    Clone the repository
+    ====================
+
+        * cd /var/www
+        * git clone git@bitbucket.org:elixire03/kll.git
+
+    Run migration script
+    ====================
+
+        * cd /var/www/kll/migration
+        * ./flyway migrate
+
+    Edit nginx configuration with the following content (path is: /etc/nginx/nginx.conf)
+    ====================================================================================
+
+        server {
+            listen 80;
+            server_name kllis.com;
+            client_max_body_size 2M;
+
+            root   /var/www/kll;
+            index index.php  index.html index.htm;
+
+            location / {
+                    try_files $uri $uri/ /index.php?/$request_uri;
+            }
+
+            location ~* ^/(assets|files|robots\.txt) { }
+
+            error_page  404              /404.html;
+            location = /404.html {
+                root   /var/www/kll;
+            }
+
+            error_page   500 502 503 504  /50x.html;
+            location = /50x.html {
+                root   /var/www/kll;
+            }
+
+            location ~ \.php$ {
+                root           /var/www/kll;
+                fastcgi_pass   127.0.0.1:9000;
+                fastcgi_index  index.php;
+                fastcgi_param  SCRIPT_FILENAME   $document_root$fastcgi_script_name;
+                include        fastcgi_params;
+            }
+
+        }
+
+    Restart server and start php-fpm
+    ================================
+
+        * sudo start php-fpm
+        * sudo enable php-fpm
+        * sudo restart nginx
